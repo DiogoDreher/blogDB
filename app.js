@@ -5,9 +5,9 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 
-const homeStartingContent = "Hi, my name id Diogo and this is my personal blog, where I intend to share with you some aspects of my life and my professional achievements. Feel free to come by anytime you want and I'll be more than glad respond to anyone who tries to get in touch with me through the Contact Me area. Hope to hear from you :)";
-const aboutContent = "I'm a Brazilian/Portuguese currently living in Porto-Portugal. I'm a Multimedia Engineering at Istec-Porto and an enthusiast about web developing. I have just finished a Web Development Bootcamp at Udemy and I'm looking for oportunities to put all my studies to a test. This blog is one of my projects and here I intend to write about my achievements be it in personal or professional life.";
-const contactContent = "If you're interested on having a web site of your own you can get in touch with me through my e-mail: diogo-ramalho92@hotmail.com. Feel free to send a message so we can talk.";
+const homeStartingContent = "Hi, my name is Diogo and this is my personal blog, where I intend to share with you some aspects of my life and my professional achievements. Feel free to come by anytime you want and I'll be more than glad respond to anyone who tries to get in touch with me through the Contact Me area. Hope to hear from you :)";
+const aboutContent = "I'm a Brazilian/Portuguese guy currently living in Porto-Portugal with my wife Elaine❤️. I'm a Multimedia Engineering at Istec-Porto and an enthusiast about web developing. I have just finished a Web Development Bootcamp at Udemy and I'm looking for oportunities to put all my studies to a test. This blog is one of my projects and here I intend to write about my achievements be it in personal or professional life.";
+const contactContent = "If you're interested on having a web site of your own you can get in touch with me through my e-mail: diogo-ramalho92@hotmail.com. Feel free to send a message so we can talk about it over a beer or a cup of coffee.";
 
 const app = express();
 
